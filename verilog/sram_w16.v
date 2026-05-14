@@ -46,25 +46,25 @@ module sram_w16 (CLK, D, Q, CEN, WEN, A, reset);
              (add_q == 14) ? memory14 : memory15))))))))))))));
 */
 
-  always @ (posedge CLK or posedge reset) begin
+  always @ (posedge CLK) begin
 
    if (reset) begin
-	memory0 <= 0;
-	memory1 <= 0;
-	memory2 <= 0;
-	memory3 <= 0;
-	memory4 <= 0;
-	memory5 <= 0;
-	memory6 <= 0;
-	memory7 <= 0;
-	memory8 <= 0;
-	memory9 <= 0;
-	memory10 <= 0;
-	memory11 <= 0;
-	memory12 <= 0;
-	memory13 <= 0;
-	memory14 <= 0;
-	memory15 <= 0;
+	// memory0 <= 0;
+	// memory1 <= 0;
+	// memory2 <= 0;
+	// memory3 <= 0;
+	// memory4 <= 0;
+	// memory5 <= 0;
+	// memory6 <= 0;
+	// memory7 <= 0;
+	// memory8 <= 0;
+	// memory9 <= 0;
+	// memory10 <= 0;
+	// memory11 <= 0;
+	// memory12 <= 0;
+	// memory13 <= 0;
+	// memory14 <= 0;
+	// memory15 <= 0;
 
    end
    else if (!CEN && WEN) begin // read 

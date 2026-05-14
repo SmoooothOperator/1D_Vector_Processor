@@ -50,7 +50,7 @@ module fifo_depth16 (rd_clk, wr_clk, in, out, rd, wr, o_full, o_empty, reset);
 	                         .sel(rd_ptr[3:0]), .out(out));
 
 
- always @ (posedge rd_clk or posedge reset) begin
+ always @ (posedge rd_clk) begin
    if (reset) begin
       rd_ptr <= 5'b00000;
    end
@@ -60,25 +60,25 @@ module fifo_depth16 (rd_clk, wr_clk, in, out, rd, wr, o_full, o_empty, reset);
  end
 
 
- always @ (posedge wr_clk or posedge reset) begin
+ always @ (posedge wr_clk) begin
    if (reset) begin
       wr_ptr <= 5'b00000;
-      q0 <= 0;
-      q1 <= 0;
-      q2 <= 0;
-      q3 <= 0;
-      q4 <= 0;
-      q5 <= 0;
-      q6 <= 0;
-      q7 <= 0;
-      q8 <= 0;
-      q9 <= 0;
-      q10 <= 0;
-      q11 <= 0;
-      q12 <= 0;
-      q13 <= 0;
-      q14 <= 0;
-      q15 <= 0;
+      // q0 <= 0;
+      // q1 <= 0;
+      // q2 <= 0;
+      // q3 <= 0;
+      // q4 <= 0;
+      // q5 <= 0;
+      // q6 <= 0;
+      // q7 <= 0;
+      // q8 <= 0;
+      // q9 <= 0;
+      // q10 <= 0;
+      // q11 <= 0;
+      // q12 <= 0;
+      // q13 <= 0;
+      // q14 <= 0;
+      // q15 <= 0;
    end
    else begin 
       if ((wr == 1) && (full == 0)) begin

@@ -1,0 +1,90 @@
+open_project /home/caden99/Documents/projects/vector_processor/1D_Vector_Processor/spyglass-1.prj
+
+
+current_goal lint/lint_rtl -alltop
+run_goal
+current_goal lint/lint_abstract -alltop
+run_goal
+current_goal lint/lint_rtl -alltop
+
+
+
+
+
+
+
+
+current_goal lint/lint_rtl -alltop
+run_goal
+
+
+
+
+gui_select_message -rule STX_VE_1188 -msg {Invalid context for genvar 'i'. A genvar can be used only inside of the generate loop that it indexes}
+run_goal
+
+gui_select_message -rule STX_VE_1188 -msg {Invalid context for genvar 'i'. A genvar can be used only inside of the generate loop that it indexes}
+gui_select_message -rule STX_VE_1188 -msg {Invalid context for genvar 'i'. A genvar can be used only inside of the generate loop that it indexes}
+gui_select_message -rule STX_VE_479 -msg {Syntax error near ( for ). Please use 'set_option enableV05 yes' to support Verilog-2005 construct ( Generate for outside generate/endgenerate )}
+gui_select_message -rule STX_VE_479 -msg {Syntax error near ( i ). Please use 'set_option enableSV yes' to support SystemVerilog construct ( int )}
+gui_select_message -rule STX_VE_479 -msg {Syntax error near ( for ). Please use 'set_option enableV05 yes' to support Verilog-2005 construct ( Generate for outside generate/endgenerate )}
+gui_select_message -rule STX_VE_1188 -msg {Invalid context for genvar 'i'. A genvar can be used only inside of the generate loop that it indexes}
+gui_select_message -rule STX_VE_1188 -msg {Invalid context for genvar 'i'. A genvar can be used only inside of the generate loop that it indexes}
+run_goal
+
+gui_select_message -rule STX_VE_479 -msg {Syntax error near ( for ). Please use 'set_option enableV05 yes' to support Verilog-2005 construct ( Generate for outside generate/endgenerate )}
+gui_select_message -rule STX_VE_479 -msg {Syntax error near ( i ). Please use 'set_option enableSV yes' to support SystemVerilog construct ( int )}
+gui_select_message -rule STX_VE_479 -msg {Syntax error near ( for ). Please use 'set_option enableV05 yes' to support Verilog-2005 construct ( Generate for outside generate/endgenerate )}
+gui_select_message -rule STX_VE_479 -msg {Syntax error near ( i ). Please use 'set_option enableSV yes' to support SystemVerilog construct ( int )}
+gui_select_message -rule STX_VE_479 -msg {Syntax error near ( i ). Please use 'set_option enableSV yes' to support SystemVerilog construct ( int )}
+gui_select_message -rule STX_VE_481 -msg {Syntax error near ( [ end ] - Illegal use of Verilog keyword 'end' )}
+gui_select_message -rule STX_VE_479 -msg {Syntax error near ( for ). Please use 'set_option enableV05 yes' to support Verilog-2005 construct ( Generate for outside generate/endgenerate )}
+run_goal
+
+gui_select_message -rule STX_VE_479 -msg {Syntax error near ( for ). Please use 'set_option enableV05 yes' to support Verilog-2005 construct ( Generate for outside generate/endgenerate )}
+gui_select_message -rule STX_VE_479 -msg {Syntax error near ( i ). Please use 'set_option enableSV yes' to support SystemVerilog construct ( int )}
+gui_select_message -rule STX_VE_479 -msg {Syntax error near ( for ). Please use 'set_option enableV05 yes' to support Verilog-2005 construct ( Generate for outside generate/endgenerate )}
+run_goal
+
+gui_select_message -rule STX_VE_479 -msg {Syntax error near ( for ). Please use 'set_option enableV05 yes' to support Verilog-2005 construct ( Generate for outside generate/endgenerate )}
+run_goal
+
+gui_select_message -rule STX_VE_479 -msg {Syntax error near ( i ). Please use 'set_option enableSV yes' to support SystemVerilog construct ( int )}
+run_goal
+
+run_goal
+
+gui_select_message -rule STARC05-1.3.1.3 -msg {Asynchronous reset signal 'fullchip_tb.reset' (flop: 'fullchip_tb.fullchip_instance.core_instance.qmem_instance.memory0[0]') used as non-reset/synchronous-reset at instance 'fullchip_tb.fullchip_instance.core_instance.mac_array_instance.\col_idx[1].mac_col_inst .\cnt_q_reg[0] .EN' (File Name: 'verilog/mac_col.v' ,Line no.: '40')}
+gui_select_message -rule W415a -msg {Signal query_q is being assigned multiple times ( previous assignment at line 55 ) in same always block [Hierarchy: ':fullchip_tb:fullchip_instance@fullchip:core_instance@core:mac_array_instance@mac_array:\col_idx[1].mac_col_inst @mac_col']}
+gui_select_message -rule UndrivenInTerm-ML -msg {Detected undriven input terminal fullchip_tb.fullchip_instance.inst[16:0]}
+gui_select_message -rule UndrivenInTerm-ML -msg {Detected undriven input terminal fullchip_tb.fullchip_instance.reset}
+gui_select_message -rule UndrivenInTerm-ML -msg {Detected undriven input terminal fullchip_tb.fullchip_instance.clk}
+gui_select_message -rule UndrivenInTerm-ML -msg {Detected undriven input terminal fullchip_tb.fullchip_instance.inst[16:0]}
+gui_select_message -rule UndrivenInTerm-ML -msg {Detected undriven input terminal fullchip_tb.fullchip_instance.mem_in[63:0]}
+gui_select_message -rule STARC05-1.3.1.3 -msg {Asynchronous reset signal 'fullchip_tb.reset' (flop: 'fullchip_tb.fullchip_instance.core_instance.qmem_instance.memory0[0]') used as non-reset/synchronous-reset at instance 'fullchip_tb.fullchip_instance.core_instance.mac_array_instance.\col_idx[1].mac_col_inst .\cnt_q_reg[0] .EN' (File Name: 'verilog/mac_col.v' ,Line no.: '40')}
+gui_select_message -rule W123 -msg {Variable 'captured_data' read but never set.[Hierarchy: ':fullchip_tb']}
+gui_select_message -rule W123 -msg {Variable 'captured_data' read but never set.[Hierarchy: ':fullchip_tb']}
+gui_select_message -rule UndrivenInTerm-ML -msg {Detected undriven input terminal fullchip_tb.fullchip_instance.reset}
+gui_select_message -rule W123 -msg {Variable 'captured_data' read but never set.[Hierarchy: ':fullchip_tb']}
+gui_select_message -rule UndrivenInTerm-ML -msg {Detected undriven input terminal fullchip_tb.fullchip_instance.reset}
+
+
+current_goal lint/lint_rtl -alltop
+run_goal
+current_goal lint/lint_abstract -alltop
+run_goal
+current_goal lint/lint_rtl -alltop
+
+
+
+
+
+
+gui_select_message -rule SYNTH_5166 -msg {core -> ($display) Statement is not synthesizable. Ignoring it}
+gui_select_message -rule SYNTH_5143 -msg {fullchip_tb -> Initial block is ignored for synthesis}
+gui_select_message -rule WRN_1021 -msg {Array index ( [8] ) out-of-bounds, index value ( 8 ) is out of permissible range ([7:0])}
+gui_select_message -rule WRN_64 -msg {Part-select ( mem_in[((9 * bw) - 1):(8 * bw)]  ) is out-of-range}
+gui_select_message -rule WRN_64 -msg {Part-select ( mem_in[((9 * bw) - 1):(8 * bw)]  ) is out-of-range}
+gui_select_message -rule checkCMD_unset_option -msg {Option/Parameter 'enable_save_restore': Failed to check out license feature 'save_restore'.SpyGlass would disable 'save-restore' feature}
+gui_select_message -rule WRN_1021 -msg {Array index ( [14] ) out-of-bounds, index value ( 14 ) is out of permissible range ([7:0])}
+gui_select_message -rule WRN_1021 -msg {Array index ( [14] ) out-of-bounds, index value ( 14 ) is out of permissible range ([7:0])}

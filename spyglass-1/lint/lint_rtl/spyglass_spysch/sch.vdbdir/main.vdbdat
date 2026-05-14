@@ -1,0 +1,23 @@
+#x HLBEGIN S.1
+#x {{COLOR=>2;}}
+#x 88 { @@t 0 84 a 0 @@n 0 }
+#x HLEND
+#x HLBEGIN S.2
+#x {{COLOR=>2;}}
+#x 88 { @@t 0 0 a 0 @@n 1 }
+#x HLEND
+#x HLBEGIN S.3
+#x {{COLOR=>2;}}
+#x 88 { @@t 0 65 a 0 @@n 66 }
+#x HLEND
+#x HLBEGIN S.4
+#x {{COLOR=>2;}}
+#x 88 { @@i 17 a 0 @@t 17 1 a 0 @@t 0 83 a 0 @@n 85 }
+#x HLEND
+#x HLBEGIN S.5
+#x {{COLOR=>1;}{COLOR=>2;}{COLOR=>3;}{COLOR=>4;}}
+#x !{-7 0 0 0 1 0}
+#x 88 { @@n 0 a 0 @@d 0 { @@d 0 { @@d 0 { @@d 0 { @@i 11 a 0 @@i 8 a 0 @@i 7 a 0
+#x @@i 188 a 3 @@t0 0 188 3 @@t0 1 11 0 @@t0 2 11 1 @@t0 3 8 0 @@t0 4 8 2
+#x @@t0 5 7 0 @@t0 6 7 1 } } @@d 2 { @@i 227 a 2 @@t 227 3 a 1 } } } }
+#x HLEND

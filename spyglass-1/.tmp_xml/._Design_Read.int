@@ -1,0 +1,5 @@
+INPUT@@/home/caden99/Documents/projects/vector_processor/1D_Vector_Processor/spyglass-1/Design_Read/spyglass_reports@@/home/caden99/Documents/projects/vector_processor/1D_Vector_Processor/spyglass-1/html_reports/data_files/@@@@Design_Read@@
+COPY@@/home/caden99/Documents/projects/vector_processor/1D_Vector_Processor/spyglass-1/Design_Read/spyglass_reports/moresimple.rpt@@data_files/_Design_Read_moresimple.rpt@@
+COPY@@/home/caden99/Documents/projects/vector_processor/1D_Vector_Processor/spyglass-1/Design_Read/spyglass_reports/no_msg_reporting_rules.rpt@@data_files/_Design_Read_no_msg_reporting_rules.rpt@@
+PROCESS@@timing@@morelint@@lowpower@@area@@Audits@@clock-reset@@const_intern1@@constraints@@dft@@dft_dsm@@erc@@latch@@lint@@miscellaneous@@openmore@@power_est@@simulation@@starc@@starc2002@@starc2005@@txv@@SpyGlass
+COPY@@/home/caden99/Documents/projects/vector_processor/1D_Vector_Processor/spyglass-1/Design_Read/spyglass.log@@data_files/_Design_Read_spyglass.log@@

@@ -1,0 +1,16 @@
+verilog/core.v@@
+105@
+clk
+verilog/fifo_depth16.v@@
+53@
+rd_clk
+verilog/fifo_depth16.v@@
+63@
+wr_clk
+verilog/mac_col.v@@
+39@
+clk
+verilog/sram_w16.v@@
+49@
+CLK
+reset

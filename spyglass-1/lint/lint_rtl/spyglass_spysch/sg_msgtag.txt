@@ -1,0 +1,238 @@
+61 "W415a" 1
+"SPG_MSGTAG_HIERARCHY"
+":fullchip_tb:fullchip_instance@fullchip:core_instance@core:mac_array_instance@mac_array:\col_idx[1].mac_col_inst @mac_col"
+62 "W415a" 1
+"SPG_MSGTAG_HIERARCHY"
+":fullchip_tb:fullchip_instance@fullchip:core_instance@core:mac_array_instance@mac_array:\col_idx[1].mac_col_inst @mac_col"
+63 "W415a" 1
+"SPG_MSGTAG_HIERARCHY"
+":fullchip_tb:fullchip_instance@fullchip:core_instance@core:mac_array_instance@mac_array:\col_idx[1].mac_col_inst @mac_col"
+64 "W415a" 1
+"SPG_MSGTAG_HIERARCHY"
+":fullchip_tb:fullchip_instance@fullchip:core_instance@core:mac_array_instance@mac_array:\col_idx[1].mac_col_inst @mac_col"
+65 "W415a" 1
+"SPG_MSGTAG_HIERARCHY"
+":fullchip_tb:fullchip_instance@fullchip:core_instance@core:mac_array_instance@mac_array:\col_idx[1].mac_col_inst @mac_col"
+66 "W415a" 1
+"SPG_MSGTAG_HIERARCHY"
+":fullchip_tb:fullchip_instance@fullchip:core_instance@core:mac_array_instance@mac_array:\col_idx[1].mac_col_inst @mac_col"
+67 "W415a" 1
+"SPG_MSGTAG_HIERARCHY"
+":fullchip_tb:fullchip_instance@fullchip:core_instance@core:mac_array_instance@mac_array:\col_idx[2].mac_col_inst @mac_col"
+68 "W415a" 1
+"SPG_MSGTAG_HIERARCHY"
+":fullchip_tb:fullchip_instance@fullchip:core_instance@core:mac_array_instance@mac_array:\col_idx[2].mac_col_inst @mac_col"
+69 "W415a" 1
+"SPG_MSGTAG_HIERARCHY"
+":fullchip_tb:fullchip_instance@fullchip:core_instance@core:mac_array_instance@mac_array:\col_idx[2].mac_col_inst @mac_col"
+70 "W415a" 1
+"SPG_MSGTAG_HIERARCHY"
+":fullchip_tb:fullchip_instance@fullchip:core_instance@core:mac_array_instance@mac_array:\col_idx[2].mac_col_inst @mac_col"
+71 "W415a" 1
+"SPG_MSGTAG_HIERARCHY"
+":fullchip_tb:fullchip_instance@fullchip:core_instance@core:mac_array_instance@mac_array:\col_idx[2].mac_col_inst @mac_col"
+72 "W415a" 1
+"SPG_MSGTAG_HIERARCHY"
+":fullchip_tb:fullchip_instance@fullchip:core_instance@core:mac_array_instance@mac_array:\col_idx[2].mac_col_inst @mac_col"
+73 "W415a" 1
+"SPG_MSGTAG_HIERARCHY"
+":fullchip_tb:fullchip_instance@fullchip:core_instance@core:mac_array_instance@mac_array:\col_idx[3].mac_col_inst @mac_col"
+74 "W415a" 1
+"SPG_MSGTAG_HIERARCHY"
+":fullchip_tb:fullchip_instance@fullchip:core_instance@core:mac_array_instance@mac_array:\col_idx[3].mac_col_inst @mac_col"
+75 "W415a" 1
+"SPG_MSGTAG_HIERARCHY"
+":fullchip_tb:fullchip_instance@fullchip:core_instance@core:mac_array_instance@mac_array:\col_idx[3].mac_col_inst @mac_col"
+76 "W415a" 1
+"SPG_MSGTAG_HIERARCHY"
+":fullchip_tb:fullchip_instance@fullchip:core_instance@core:mac_array_instance@mac_array:\col_idx[3].mac_col_inst @mac_col"
+77 "W415a" 1
+"SPG_MSGTAG_HIERARCHY"
+":fullchip_tb:fullchip_instance@fullchip:core_instance@core:mac_array_instance@mac_array:\col_idx[3].mac_col_inst @mac_col"
+78 "W415a" 1
+"SPG_MSGTAG_HIERARCHY"
+":fullchip_tb:fullchip_instance@fullchip:core_instance@core:mac_array_instance@mac_array:\col_idx[3].mac_col_inst @mac_col"
+79 "W415a" 1
+"SPG_MSGTAG_HIERARCHY"
+":fullchip_tb:fullchip_instance@fullchip:core_instance@core:mac_array_instance@mac_array:\col_idx[4].mac_col_inst @mac_col"
+80 "W415a" 1
+"SPG_MSGTAG_HIERARCHY"
+":fullchip_tb:fullchip_instance@fullchip:core_instance@core:mac_array_instance@mac_array:\col_idx[4].mac_col_inst @mac_col"
+81 "W415a" 1
+"SPG_MSGTAG_HIERARCHY"
+":fullchip_tb:fullchip_instance@fullchip:core_instance@core:mac_array_instance@mac_array:\col_idx[4].mac_col_inst @mac_col"
+82 "W415a" 1
+"SPG_MSGTAG_HIERARCHY"
+":fullchip_tb:fullchip_instance@fullchip:core_instance@core:mac_array_instance@mac_array:\col_idx[4].mac_col_inst @mac_col"
+83 "W415a" 1
+"SPG_MSGTAG_HIERARCHY"
+":fullchip_tb:fullchip_instance@fullchip:core_instance@core:mac_array_instance@mac_array:\col_idx[4].mac_col_inst @mac_col"
+84 "W415a" 1
+"SPG_MSGTAG_HIERARCHY"
+":fullchip_tb:fullchip_instance@fullchip:core_instance@core:mac_array_instance@mac_array:\col_idx[4].mac_col_inst @mac_col"
+85 "W415a" 1
+"SPG_MSGTAG_HIERARCHY"
+":fullchip_tb:fullchip_instance@fullchip:core_instance@core:mac_array_instance@mac_array:\col_idx[5].mac_col_inst @mac_col"
+86 "W415a" 1
+"SPG_MSGTAG_HIERARCHY"
+":fullchip_tb:fullchip_instance@fullchip:core_instance@core:mac_array_instance@mac_array:\col_idx[5].mac_col_inst @mac_col"
+87 "W415a" 1
+"SPG_MSGTAG_HIERARCHY"
+":fullchip_tb:fullchip_instance@fullchip:core_instance@core:mac_array_instance@mac_array:\col_idx[5].mac_col_inst @mac_col"
+88 "W415a" 1
+"SPG_MSGTAG_HIERARCHY"
+":fullchip_tb:fullchip_instance@fullchip:core_instance@core:mac_array_instance@mac_array:\col_idx[5].mac_col_inst @mac_col"
+89 "W415a" 1
+"SPG_MSGTAG_HIERARCHY"
+":fullchip_tb:fullchip_instance@fullchip:core_instance@core:mac_array_instance@mac_array:\col_idx[5].mac_col_inst @mac_col"
+90 "W415a" 1
+"SPG_MSGTAG_HIERARCHY"
+":fullchip_tb:fullchip_instance@fullchip:core_instance@core:mac_array_instance@mac_array:\col_idx[5].mac_col_inst @mac_col"
+91 "W415a" 1
+"SPG_MSGTAG_HIERARCHY"
+":fullchip_tb:fullchip_instance@fullchip:core_instance@core:mac_array_instance@mac_array:\col_idx[6].mac_col_inst @mac_col"
+92 "W415a" 1
+"SPG_MSGTAG_HIERARCHY"
+":fullchip_tb:fullchip_instance@fullchip:core_instance@core:mac_array_instance@mac_array:\col_idx[6].mac_col_inst @mac_col"
+93 "W415a" 1
+"SPG_MSGTAG_HIERARCHY"
+":fullchip_tb:fullchip_instance@fullchip:core_instance@core:mac_array_instance@mac_array:\col_idx[6].mac_col_inst @mac_col"
+94 "W415a" 1
+"SPG_MSGTAG_HIERARCHY"
+":fullchip_tb:fullchip_instance@fullchip:core_instance@core:mac_array_instance@mac_array:\col_idx[6].mac_col_inst @mac_col"
+95 "W415a" 1
+"SPG_MSGTAG_HIERARCHY"
+":fullchip_tb:fullchip_instance@fullchip:core_instance@core:mac_array_instance@mac_array:\col_idx[6].mac_col_inst @mac_col"
+96 "W415a" 1
+"SPG_MSGTAG_HIERARCHY"
+":fullchip_tb:fullchip_instance@fullchip:core_instance@core:mac_array_instance@mac_array:\col_idx[6].mac_col_inst @mac_col"
+97 "W415a" 1
+"SPG_MSGTAG_HIERARCHY"
+":fullchip_tb:fullchip_instance@fullchip:core_instance@core:mac_array_instance@mac_array:\col_idx[7].mac_col_inst @mac_col"
+98 "W415a" 1
+"SPG_MSGTAG_HIERARCHY"
+":fullchip_tb:fullchip_instance@fullchip:core_instance@core:mac_array_instance@mac_array:\col_idx[7].mac_col_inst @mac_col"
+99 "W415a" 1
+"SPG_MSGTAG_HIERARCHY"
+":fullchip_tb:fullchip_instance@fullchip:core_instance@core:mac_array_instance@mac_array:\col_idx[7].mac_col_inst @mac_col"
+100 "W415a" 1
+"SPG_MSGTAG_HIERARCHY"
+":fullchip_tb:fullchip_instance@fullchip:core_instance@core:mac_array_instance@mac_array:\col_idx[7].mac_col_inst @mac_col"
+101 "W415a" 1
+"SPG_MSGTAG_HIERARCHY"
+":fullchip_tb:fullchip_instance@fullchip:core_instance@core:mac_array_instance@mac_array:\col_idx[7].mac_col_inst @mac_col"
+102 "W415a" 1
+"SPG_MSGTAG_HIERARCHY"
+":fullchip_tb:fullchip_instance@fullchip:core_instance@core:mac_array_instance@mac_array:\col_idx[7].mac_col_inst @mac_col"
+103 "W415a" 1
+"SPG_MSGTAG_HIERARCHY"
+":fullchip_tb:fullchip_instance@fullchip:core_instance@core:mac_array_instance@mac_array:\col_idx[8].mac_col_inst @mac_col"
+104 "W415a" 1
+"SPG_MSGTAG_HIERARCHY"
+":fullchip_tb:fullchip_instance@fullchip:core_instance@core:mac_array_instance@mac_array:\col_idx[8].mac_col_inst @mac_col"
+105 "W415a" 1
+"SPG_MSGTAG_HIERARCHY"
+":fullchip_tb:fullchip_instance@fullchip:core_instance@core:mac_array_instance@mac_array:\col_idx[8].mac_col_inst @mac_col"
+106 "W415a" 1
+"SPG_MSGTAG_HIERARCHY"
+":fullchip_tb:fullchip_instance@fullchip:core_instance@core:mac_array_instance@mac_array:\col_idx[8].mac_col_inst @mac_col"
+107 "W415a" 1
+"SPG_MSGTAG_HIERARCHY"
+":fullchip_tb:fullchip_instance@fullchip:core_instance@core:mac_array_instance@mac_array:\col_idx[8].mac_col_inst @mac_col"
+108 "W415a" 1
+"SPG_MSGTAG_HIERARCHY"
+":fullchip_tb:fullchip_instance@fullchip:core_instance@core:mac_array_instance@mac_array:\col_idx[8].mac_col_inst @mac_col"
+-1 "DetectTopDesignUnits" 2
+"RULEGROUP"
+["Design Read"]
+"BUILTIN"
+"1"
+-1 "ElabSummary" 2
+"RULEGROUP"
+["Design Read"]
+"BUILTIN"
+"1"
+-1 "ReportPortInfo-ML" 3
+"TEMPLATE"
+["lint/lint_rtl"]
+"RULE_ORDER"
+[42]
+"RULEGROUP"
+["morelint"]
+-1 "STARC05-1.3.1.3" 3
+"TEMPLATE"
+["lint/lint_rtl"]
+"RULE_ORDER"
+[80]
+"RULEGROUP"
+["starc2005/s05_Construct/s05_Construct1","starc2005/Basic_Design_Constraint_05"]
+-1 "SYNTH_5143" 2
+"RULEGROUP"
+["Design Read"]
+"BUILTIN"
+"1"
+-1 "SYNTH_5166" 2
+"RULEGROUP"
+["Design Read"]
+"BUILTIN"
+"1"
+-1 "SYNTH_89" 2
+"RULEGROUP"
+["Design Read"]
+"BUILTIN"
+"1"
+-1 "UndrivenInTerm-ML" 3
+"TEMPLATE"
+["lint/lint_rtl"]
+"RULE_ORDER"
+[71]
+"RULEGROUP"
+["morelint/HangingNet-ML/Undriven-ML"]
+-1 "W123" 3
+"TEMPLATE"
+["lint/lint_rtl"]
+"RULE_ORDER"
+[50]
+"RULEGROUP"
+["lint/Lint_Elab_Rules","lint/Usage"]
+-1 "W287b" 3
+"TEMPLATE"
+["lint/lint_rtl"]
+"RULE_ORDER"
+[92]
+"RULEGROUP"
+["lint/Instance"]
+-1 "W415a" 3
+"TEMPLATE"
+["lint/lint_rtl"]
+"RULE_ORDER"
+[91]
+"RULEGROUP"
+["lint/MultipleDriver"]
+-1 "W528" 3
+"TEMPLATE"
+["lint/lint_rtl"]
+"RULE_ORDER"
+[95]
+"RULEGROUP"
+["lint/Lint_Elab_Rules","lint/Usage"]
+-1 "WRN_1021" 2
+"RULEGROUP"
+["Design Read"]
+"BUILTIN"
+"1"
+-1 "WRN_64" 2
+"RULEGROUP"
+["Design Read"]
+"BUILTIN"
+"1"
+-1 "WRN_69" 2
+"RULEGROUP"
+["Design Read"]
+"BUILTIN"
+"1"
+-1 "checkCMD_unset_option" 2
+"RULEGROUP"
+["Command-line read"]
+"BUILTIN"
+"1"

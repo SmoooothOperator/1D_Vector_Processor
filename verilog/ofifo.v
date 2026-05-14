@@ -23,7 +23,7 @@ module ofifo (clk, in, out, rd, wr, o_valid, reset, o_full);
 
   
   genvar i;
-
+  generate
   for (i=0; i < col ; i=i+1) begin : col_idx
       fifo_depth16 #(.bw(bw), .simd(simd)) fifo_instance (
 	 .rd_clk(clk),
@@ -38,6 +38,6 @@ module ofifo (clk, in, out, rd, wr, o_valid, reset, o_full);
   end
 
 
- 
+ endgenerate
 
 endmodule

@@ -1,0 +1,12 @@
+0 verilog/core.v
+1 verilog/fifo_depth16.v
+2 verilog/fifo_mux_2_1.v
+3 verilog/fifo_mux_8_1.v
+4 verilog/fifo_mux_16_1.v
+5 verilog/fullchip.v
+6 verilog/fullchip_tb.v
+7 verilog/mac_8in.v
+8 verilog/sram_w16.v
+9 verilog/mac_array.v
+10 verilog/mac_col.v
+11 verilog/ofifo.v

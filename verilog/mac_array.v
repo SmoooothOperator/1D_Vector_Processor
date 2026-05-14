@@ -25,7 +25,7 @@ genvar i;
 
 assign inst_temp[1:0]    = inst;
 assign q_temp[bw*pr-1:0] = in;
-
+generate
 for (i=1; i < col+1 ; i=i+1) begin : col_idx
    mac_col #(.bw(bw), .bw_psum(bw_psum), .pr(pr), .col_id(i)) mac_col_inst (
         .q_in( q_temp[pr*bw*i-1    :pr*bw*(i-1)]), 
@@ -38,5 +38,5 @@ for (i=1; i < col+1 ; i=i+1) begin : col_idx
 	.out(out[bw_psum*i-1 : bw_psum*(i-1)])
    );
 end 
-
+endgenerate
 endmodule

@@ -1,0 +1,20 @@
+-1 "STX_VE_1188" 2
+"RULEGROUP"
+["Design Read"]
+"BUILTIN"
+"1"
+-1 "STX_VE_479" 2
+"RULEGROUP"
+["Design Read"]
+"BUILTIN"
+"1"
+-1 "SYNTH_89" 2
+"RULEGROUP"
+["Design Read"]
+"BUILTIN"
+"1"
+-1 "WRN_69" 2
+"RULEGROUP"
+["Design Read"]
+"BUILTIN"
+"1"

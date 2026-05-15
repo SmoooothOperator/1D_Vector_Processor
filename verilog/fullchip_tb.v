@@ -246,7 +246,7 @@ $display("##### Kmem writing #####");
     mem_in[5*bw-1:4*bw] = K[q][4];
     mem_in[6*bw-1:5*bw] = K[q][5];
     mem_in[7*bw-1:6*bw] = K[q][6];
-    // mem_in[8*bw-1:7*bw] = K[q][7];
+    mem_in[8*bw-1:7*bw] = K[q][7];
     // mem_in[9*bw-1:8*bw] = K[q][8];
     // mem_in[10*bw-1:9*bw] = K[q][9];
     // mem_in[11*bw-1:10*bw] = K[q][10];

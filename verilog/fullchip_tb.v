@@ -81,8 +81,17 @@ fullchip #(.bw(bw), .bw_psum(bw_psum), .col(col), .pr(pr)) fullchip_instance (
 
 initial begin 
 
-  $dumpfile("fullchip_tb.vcd");
-  $dumpvars(0,fullchip_tb);
+  /////////////////////VCD Dump for Iverilog/////////////////////
+  // $dumpfile("fullchip_tb.vcd");
+  // $dumpvars(0,fullchip_tb);
+
+  /////////////////////FSDB Dump for Verdi/////////////////////
+  // Specify the name of the output waveform file
+    $fsdbDumpfile("fullchip_tb.fsdb");
+
+    // Dump all signals in the hierarchy
+    // 0 = Dump all levels of hierarchy starting from fullchip_tb
+    $fsdbDumpvars(0, fullchip_tb);
 
 
 

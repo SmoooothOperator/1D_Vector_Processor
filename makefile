@@ -6,7 +6,7 @@ SIMV   = ./simv
 VERDI  = verdi
 
 # Flags
-VLOGAN_FLAGS = -sverilog -full64 -l vlogan.log
+VLOGAN_FLAGS = -sverilog -kdb -lca -full64 -l vlogan.log
 VCS_FLAGS    = -full64 -debug_access+all -kdb -lca -timescale=1ns/1ps -l elab.log
 SIM_FLAGS    = -l sim.log
 

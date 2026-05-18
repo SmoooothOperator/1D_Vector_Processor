@@ -77,7 +77,7 @@ module tb_fifo;
     initial begin
         reset_dut();
         $fsdbDumpfile("tb_fifo.fsdb"); // 1. Set the custom filename first
-        $fsdbDumpvars(0, tb_fifo);
+        $fsdbDumpvars(0, tb_fifo, "+all");
         if (empty) $display("[SUCCESS] FIFO is correctly reporting EMPTY on reset."); 
         $display("[TB] Streaming data in...");
         write_fifo({8'h01, 8'h02, 8'h03, 8'h04}); // Lane 3 down to Lane 0

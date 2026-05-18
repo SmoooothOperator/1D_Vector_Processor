@@ -11,8 +11,8 @@ VCS_FLAGS    = -full64 -debug_access+all -kdb -lca -timescale=1ns/1ps -l elab.lo
 SIM_FLAGS    = -l sim.log
 
 # Project specific
-TOP_MODULE = fullchip_tb
-FILE_LIST  = filelist.f
+TOP_MODULE = tb_fifo
+FILE_LIST  = fifo_filelist.f
 
 # --- Targets ---
 

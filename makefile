@@ -13,6 +13,7 @@ SIM_FLAGS    = -l sim.log
 # Project specific
 TOP_MODULE = tb_fifo
 FILE_LIST  = fifo_filelist.f
+FSDB_FILE = $(TOP_MODULE).fsdb
 
 # --- Targets ---
 
@@ -33,7 +34,7 @@ sim:
 
 # Shortcut to open Verdi
 verdi:
-	$(VERDI) -dbdir ./simv.daidir &
+	$(VERDI) -dbdir ./simv.daidir -ssf $(FSDB_FILE) &
 
 # Clean up simulation artifacts
 clean:

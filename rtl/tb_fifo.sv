@@ -76,7 +76,7 @@ module tb_fifo;
     // Main Generator Loop
     initial begin
         reset_dut();
-        if (empty) $display("[SUCCESS] FIFO is correctly reporting EMPTY on reset.");    end
+        if (empty) $display("[SUCCESS] FIFO is correctly reporting EMPTY on reset."); 
         $display("[TB] Streaming data in...");
         write_fifo({8'h01, 8'h02, 8'h03, 8'h04}); // Lane 3 down to Lane 0
         write_fifo({8'h05, 8'h06, 8'h07, 8'h08});
@@ -100,6 +100,7 @@ module tb_fifo;
         #20;
         $display("[TB] Unit test complete.");
         $finish;
+    end
 
     always @(posedge clk) begin
         if (rd_en && !empty) begin

@@ -76,6 +76,7 @@ module tb_fifo;
     // Main Generator Loop
     initial begin
         reset_dut();
+        $fsdbDumpfile("tb_fifo.fsdb"); // 1. Set the custom filename first
         $fsdbDumpvars(0, tb_fifo);
         if (empty) $display("[SUCCESS] FIFO is correctly reporting EMPTY on reset."); 
         $display("[TB] Streaming data in...");

@@ -1,4 +1,4 @@
-module fifo #(parameter DEPTH = 8, parameter WIDTH = 4, parameter BW = 4, paramter PSUM_BW = 2*BW + 1) (
+module fifo #(parameter DEPTH = 8, parameter WIDTH = 4, parameter BW = 4, parameter PSUM_BW = 2*BW + 1) (
     input clk, reset,
     input [WIDTH*BW-1:0][BW-1:0] data_in,
     input wr_en,
@@ -10,8 +10,8 @@ module fifo #(parameter DEPTH = 8, parameter WIDTH = 4, parameter BW = 4, paramt
     localparam int ADDR_WIDTH = $clog2(DEPTH);
     localparam int PTR_WIDTH  = ADDR_WIDTH + 1;
 
-    logic [] wr_ptr;
-    logic [] rd_ptr;
+    logic [PTR_WIDTH-1:0] wr_ptr;
+    logic [PTR_WIDTH-1:0] rd_ptr;
 
     logic [WIDTH-1:0][BW-1:0] mem [0:DEPTH-1];
 

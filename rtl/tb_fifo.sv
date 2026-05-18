@@ -71,7 +71,6 @@ module tb_fifo;
         @(posedge clk);
         #1;
         rd_en <= 1'b0;
-        $display("FIFO Reads out: %")'
     endtask
 
     // Main Generator Loop
@@ -101,7 +100,7 @@ module tb_fifo;
         #20;
         $display("[TB] Unit test complete.");
         $finish;
-        
+
     always @(posedge clk) begin
         if (rd_en && !empty) begin
             $display("[MONITOR] @%0t: Read Data Out = [ Lane3: %h | Lane2: %h | Lane1: %h | Lane0: %h ]", 
